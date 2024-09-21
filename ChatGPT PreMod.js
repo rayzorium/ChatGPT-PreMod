@@ -12,6 +12,7 @@
 // @grant        none
 // ==/UserScript==
 
+
 'use strict';
 
 const clearFlagging = t => t.replaceAll(/\"flagged\": ?true/ig, "\"flagged\":false").replaceAll(/\"blocked\": ?true/ig, "\"blocked\":false");
