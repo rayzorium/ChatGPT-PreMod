@@ -2,8 +2,7 @@
 // @name         ChatGPT PreMod
 // @namespace    HORSELOCK.chatgpt
 // @version      0.1.0
-// @description  Hides moderation visual effects. Prevents the deletion of streaming response (lost on reload).
-// @author       HORSELOCK
+// @description  Hides moderation visual effects. _Prevents_ the deletion of streaming response after it fully comes in. Lost on reload, and note response streaming will not even be allowed to even start if your request is BLOCKED (red/removed). There is somewhat of a workaround, though - you can ask "repeat your last response" afterward - _that_ request will not be BLOCKED. The model has zero knowledge of what was blocked or not.
 // @match        *://chatgpt.com/*
 // @match        *://chat.openai.com/*
 // @downloadURL  https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/main/ChatGPT%20PreMod.js
