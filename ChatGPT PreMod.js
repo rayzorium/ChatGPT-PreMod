@@ -6,8 +6,8 @@
 // @author       HORSELOCK
 // @match        *://chatgpt.com/*
 // @match        *://chat.openai.com/*
-// @downloadURL  https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/main/ChatGPT%20PreMod.js
-// @updateURL    https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/main/ChatGPT%20PreMod.js
+// @downloadURL  https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/refs/heads/main/ChatGPT%20PreMod.js
+// @updateURL    https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/refs/heads/main/ChatGPT%20PreMod.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
