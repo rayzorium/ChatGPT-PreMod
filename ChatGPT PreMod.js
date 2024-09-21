@@ -5,8 +5,8 @@
 // @description  Hides moderation visual effects. Prevents the deletion of streaming response (lost on reload).
 // @author       HORSELOCK
 // @match        *://chatgpt.com/*
-// @downloadURL  https://raw.githubusercontent.com/4as/ChatGPT-DeMod/main/ChatGPT%20DeMod.user.js
-// @updateURL    https://raw.githubusercontent.com/4as/ChatGPT-DeMod/main/ChatGPT%20DeMod.user.js
+// @downloadURL  https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/main/ChatGPT%20PreMod.js
+// @updateURL    https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/main/ChatGPT%20PreMod.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
