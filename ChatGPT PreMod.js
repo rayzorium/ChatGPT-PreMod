@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ChatGPT DeMod
+// @name         ChatGPT PreMod
 // @namespace    HORSELOCK.chatgpt
 // @version      0.1.0
 // @description  Hides moderation visual effects. Prevents the deletion of streaming response (lost on reload).
