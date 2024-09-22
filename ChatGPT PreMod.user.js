@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT PreMod
 // @namespace    HORSELOCK.chatgpt
-// @version      0.2.0
+// @version      0.3.0
 // @description  Hides moderation visual effects. Prevents the deletion of streaming response after it fully comes in. Lost on page reload.
 // @match        *://chatgpt.com/*
 // @match        *://chat.openai.com/*
@@ -41,7 +41,7 @@ window.fetch = async (...args) => {
                     const { cleared, blocked } = clearFlagging(chunk);
 
                     if (blocked && !isInitialLoad) {
-                        window.alert("Message BLOCKED\n\nIf you just loaded the page, ignore this.\n\nIf a response, just finished, note it will be lost upon leaving page.\n\n If it was YOUR request, note response may not ever show up: wait until done, you can ChatGPT to repeat last response.\n\n");
+                        window.alert("Message BLOCKED, will be lost upon leaving page\n\nIf you just loaded the page, ignore this.\n\nIf YOUR request triggered this, it will also be lost on leaving page, and note response may not ever show up: wait until response is done, you can ask ChatGPT to repeat last response.\n\n");
                     }
 
                     controller.enqueue(enc.encode(cleared));
