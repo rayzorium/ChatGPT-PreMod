@@ -5,8 +5,8 @@
 // @description  Hides moderation visual effects. _Prevents_ the deletion of streaming response after it fully comes in. Lost on page reload.
 // @match        *://chatgpt.com/*
 // @match        *://chat.openai.com/*
-// @downloadURL  https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/main/ChatGPT%20PreMod.js
-// @updateURL    https://raw.githubusercontent.com/rayzorium/ChatGPT-PreMod/main/ChatGPT%20PreMod.js
+// @downloadURL  https://github.com/rayzorium/ChatGPT-PreMod/raw/main/ChatGPT%20PreMod.user.js
+// @updateURL    https://github.com/rayzorium/ChatGPT-PreMod/raw/main/ChatGPT%20PreMod.user.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
