@@ -41,7 +41,7 @@ window.fetch = async (...args) => {
                     const { cleared, blocked } = clearFlagging(chunk);
 
                     if (blocked && !isInitialLoad) {
-                        window.alert("Message was BLOCKED - will be lost upon leaving page. If it was YOUR request, response may not ever show up. If not, ask ChatGPT to repeat last response.");
+                        window.alert("Message BLOCKED\n\nIf you just loaded the page, ignore this.\n\nIf a response, just finished, note it will be lost upon leaving page.\n\n If it was YOUR request, note response may not ever show up: wait until done, you can ChatGPT to repeat last response.\n\n");
                     }
 
                     controller.enqueue(enc.encode(cleared));
