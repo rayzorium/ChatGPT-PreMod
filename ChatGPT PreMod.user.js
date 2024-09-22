@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT PreMod
 // @namespace    HORSELOCK.chatgpt
-// @version      0.3.0
+// @version      0.4.0
 // @description  Hides moderation visual effects. Prevents the deletion of streaming response after it fully comes in. Lost on page reload.
 // @match        *://chatgpt.com/*
 // @match        *://chat.openai.com/*
