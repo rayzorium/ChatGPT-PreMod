@@ -14,6 +14,9 @@ DeMod worked basically because OpenAI was still sending BLOCKED messages all the
 
 So, we're left with this workaround of simply preventing the removal of blocked messages. The "ChatGPT anti censorship" extension also does these, but it's Chrome only. DeMod could trivially add it, but currently it doesn't, so fine_ill_do_it_myself.gif
 
+# Mobile?
+Mobile users reporting issues - I've only tested on desktop, sorry. Not sure if how it handles messages is different.
+
 # Other options
 The only thing we can really do better here is write additional code to save those BLOCKED messages locally, and intelligently populate conversations from that data when loading them. That's quite a bit more work that I'm not going to do anytime soon, but this is just an FYI for any motivated developers (or non-developers willing to learn or do a lot of back-and-forth with ChatGPT, lol)
 
