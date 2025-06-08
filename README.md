@@ -4,8 +4,8 @@ Hides moderation visual effects. _Prevents_ the deletion of streaming responses 
 
 # Installation
 0. Ensure you do not have similar scripts/extensions installed (like ChatGPT anti censorship Chrome extension)
-1. Install ViolentMonkey browser extension (TamperMonkey if you're on Chrome unless VM fixes their shit)
-2. May have to turn on your browser's developer mode 
+1. Install ViolentMonkey browser extension (TamperMonkey if you're on Chrome, ViolentMonkey is preferred but still on MV2). These are extensions that allow you to run browser scripts.
+2. You may have to turn on your browser's developer mode for -Monkey extensions to work, google how to do it per browser
 3. Go here and click install: https://github.com/rayzorium/ChatGPT-PreMod/raw/refs/heads/main/ChatGPT%20PreMod.user.js
 
 # How this works (IMPORTANT)
