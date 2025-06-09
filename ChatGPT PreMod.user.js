@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT PreMod
 // @namespace    HORSELOCK.chatgpt
-// @version      1.0.9
+// @version      1.0.10
 // @description  Hides moderation visual effects. Prevents deletion of streaming response. Saves responses to GM storage and injects them into loaded conversations based on message ID.
 // @match        *://chatgpt.com/*
 // @match        *://chat.openai.com/*
@@ -75,8 +75,8 @@
                                     if (unBlock(dataObj.moderation_response)) {
                                         if (!currentMessageId) { // Keep the first we encounter because only one message per request can be unBLOCKED - if user msg is BLOCKED, the response will never show if it's also BLOCKED, so we can safely take the first
                                             currentMessageId = dataObj.message_id;
-                                            const requestMessage = JSON.parse(args[1].body).messages[0];
-                                            if (currentMessageId === requestMessage.id) {
+                                            const requestBody = JSON.parse(args[1].body);
+                                            if (requestBody.message && currentMessageId === requestBody.message.id) {
                                                 accumulatedContent = requestMessage.content.parts[0];
                                                 window.alert("Your request was BLOCKED (was still sent, just would be hidden from you if not for this script). It can lead to warning emails and bans, so careful. See README.md for details. Response will not be streamed, and if it also triggers BLOCKED, this script can't save it - you can ask ChatGPT to repeat its response though.");
                                             } else {
